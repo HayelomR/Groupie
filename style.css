@@ -1,0 +1,251 @@
+body {
+  background-color:   #708090;
+  font-family: "Times New Roman", Georgia, Serif;
+  background-image: url("images/BlueArch.jpg");
+  margin-bottom: 60px;
+}
+
+.row .col.offset-s3 {
+  width: 400px;
+  height: 300px;
+  margin-left: 35%;
+  margin-bottom: 10%;
+}
+a {
+  color: white;
+}
+.first-h2 {
+margin-bottom:10px;
+}
+
+h5 {
+  color:white;
+  text-align: center;
+}
+
+table {
+  background-color: black;
+}
+
+#places {
+  color: white;
+}
+
+.btn, .btn-large {
+  float: right;
+  /*margin-top: -50px;*/
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.navbar-default {
+  margin: 20px;
+  background-color: #708090;
+}
+
+.name {
+  background-color: white;
+  color: black;
+}
+
+.navbar-right {
+  margin-right: 15px;
+}
+
+li {
+  position: absolute;
+  margin-right: 10px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  line-height: 100%;
+}
+#search-button {
+  position: absolute;
+  float: right;
+  margin-right: 25%;
+  margin-top: 0.75%;
+}
+
+.btn-info {
+  padding-top: 11px;
+  padding-bottom: 36px;
+}
+
+#search-input{
+  background-color: #F0F8FF;
+  padding-left: 5px;
+  font-weight: bolder;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 30%;
+  margin-left: 35%;
+}
+
+#flights {
+  background-color: black;
+  color: white;
+}
+
+h2 {     
+  padding-bottom: 20px;
+  color: #A52A2A;
+ /* font-size: 10px;*/
+  font-family: 'Lobster', cursive;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+label{
+  color: #2e7d32;
+  font-size: 40px;
+  margin-left: 35%;
+}
+p {
+  color: white;
+  margin-left: 5%;
+  margin-bottom: 30px;
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding-top: 15px;
+  color:black;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background-color: white;
+}
+
+#loadingScreen {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#dadJoke {
+  color: white;
+  font-size: 16pt;
+} 
+
+#noArtist {
+  font-size: 16pt;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .name{
+    margin-right: 50px;
+  }
+  p {
+    margin-right: 200px;
+  }
+  label {
+
+    font-size: 35px;
+    margin-left: 20%;
+  }
+  #search-input {
+    width: 40%;
+    margin-left: 10%;
+  }
+  
+  h2 {
+     margin-right: 200px;
+    font-size: 20px;
+  }
+.footer {
+  text-align: left;
+  padding-left: 15%;
+}
+
+}
+@media screen and (max-width: 414px){
+  .name {
+    margin-right: 160px;
+  }
+  label {
+    font-size: 20px;
+  }
+  h2{
+    margin-top: 10px;
+    margin-right: 80px;
+    font-size: 12px;
+  }
+  p {
+ font-size: 12px;
+  margin-right: 140px;
+  padding-left: 20px;
+
+  }
+  #search-button {
+    margin-top: 1%;
+}
+  #search-input{
+    width: 62%;
+    margin-left: 1%;
+    margin-top: 1.5%;
+  }
+  .footer{
+font-size: 12px;
+ padding-right: 30%;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .name {
+
+    margin-right: 100px;
+
+  }
+  label{
+    font-size: 14px;
+    margin-left: 30%;
+  }
+  h2 {
+    margin-right: 20%;
+    font-size: 12px;
+    line-height: 50%;
+    padding-bottom: 10px;
+  }
+  p {  
+  font-size: 12px;
+  margin-right: 140px;
+  padding-left: 40px;
+  }
+  #search-input {
+     padding-left: 5px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+    width: 52%;
+
+  }
+#search-button {
+    margin-top: 2%;
+}
+  .airport{
+    color: white;
+    margin-left: 20px;
+  }
+  .footer {
+    font-size: 10px;
+    padding-right: 30%
+
+  }
+
+}
